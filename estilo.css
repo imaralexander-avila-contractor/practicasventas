@@ -1,1 +1,532 @@
-aaaa
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: arial, sans-serif;
+	background-color: transparent !important;
+}
+section {
+	box-sizing: border-box; /* or not */
+	margin: 0 auto;
+	width: 90%;
+	height: 80%;
+	background: white;
+}
+
+.encabezado1 {
+	padding: 1%;
+	background: rgba(0, 0, 0, 0.5);	
+	color: white;
+	font-size: 4vmin;
+	text-align:center;
+	font-weight:normal;
+}
+
+.encabezado2 {
+  padding: 1%;
+  background: rgb(0, 110, 193);
+  color: white;
+  font-size: 4vmin;
+  text-align:center;
+  font-weight:normal;
+}
+
+.encabezado3 {
+  padding: 1%;
+  background: rgb(134, 200, 45);
+  color: white;
+  font-size: 4vmin;
+  text-align:center;
+  font-weight:normal;
+}
+
+.encabezado4 {
+	padding: 1%;
+	background: rgb(0, 158, 229);	
+	color: white;
+	font-size: 4vmin;
+	text-align:center;
+	font-weight:normal;
+}
+
+.encabezado5 {
+	padding: 1%;
+	background: rgb(245, 137, 29);	
+	color: white;
+	font-size: 4vmin;
+	text-align:center;
+	font-weight:normal;
+}
+.encabezado6{
+	padding: 1%;
+	background: rgb(82, 188, 236);
+	color: white;
+	font-size: 4vmin;
+	text-align:center;
+	font-weight:normal;
+}
+p {
+	color:rgb(102, 102, 102);
+	font-size:2.4vmin;
+}
+
+.sec1 {
+	background:rgb(242, 242, 242);
+	padding:5px;
+	overflow:hidden;
+}
+
+.sec2 {
+	padding:5px;
+	overflow:hidden;
+}
+
+.fuerza1 p {
+	color:rgb(51, 51, 51);
+	text-align:left;
+	font-size:3vmin;
+	margin-left:10px;
+	
+}
+.fuerza p {
+	color:rgb(51, 51, 51);
+	text-align:center;
+	font-size:2.8vmin;
+	margin-left:10%;
+	width:80%;
+}
+
+.tabla {
+	display: table;
+}
+
+.fila {
+	display: table-row;
+}
+
+.celda {
+	display: table-cell;
+}
+
+.celda p {
+	text-align:justify;
+}
+.cuadro_descrip {
+	border-radius: 15px;
+	background-color: rgb(231, 231, 231);
+	padding: 1%;
+}
+
+.cuadro_descrip p {
+	text-align:justify;
+	color:rgb(51, 51, 51);
+	font-size:2.5vmin;
+}
+
+.imagen {
+	margin: 2%;
+	padding: 2%;
+}
+
+.vinculos {
+	transition: all 200ms;
+	-moz-transition: all 200ms;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+	text-decoration: none;
+	color:rgb(51, 51, 51);
+}
+
+.vinculos:hover {
+	color: #52BBEB; /* rgb(82, 187, 235); */ 
+}
+
+.tabla {
+	display: table;
+}
+
+.fila {
+	display: table-row;
+}
+
+.celda {
+	display: table-cell;
+}
+
+.celda p {
+	text-align:justify;
+}
+.wrapper {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+ul.contenedor {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -5%;
+}
+
+ul.contenedor li {
+	display: inline-block;
+	padding: 1%;
+	margin: 0 0 2.5% 2.5%;
+	font-size: 2.8vmin;
+	text-align:center;
+	box-sizing: border-box;
+	-moz-boz-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+ul.contenedor li img {
+	max-width: 100%;
+	height:auto;
+	margin: 0 0 1%;
+	text-align:center;
+	border: 1px solid #ddd;
+	border-radius: 50%;	
+}
+
+ul.contenedor li h3 {
+	margin: 0 0 2%;
+	text-align:center;
+	font-size:2.4vmin;	
+	color: rgb(51,51,51);
+}
+
+ul.contenedor li p {
+	font-size: 2vmin;
+	line-height: 1.5em;
+	color: #999;
+	text-align:center;
+	font-weight: bold;
+}
+
+ul.contenedor.columns-2 li {
+	width: 47.5%;
+}
+
+ul.contenedor.columns-4 li {
+	width: 22.5%;
+}
+
+ul.contenedor li:hover img {
+	opacity: 0.2; filter: alpha(opacity=20);
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+ul.contenedor li:hover p {
+	color: #52BBEB;
+	-webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+.Popup {
+	position:relative;
+	margin: 200px auto;
+}
+
+.Popup .close {
+	padding: 0px 4px; 
+	position: absolute;
+	top: -15px;
+	right: 2px;
+	transition: all 200ms;
+	-moz-transition: all 200ms;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+	font-size: 2.8vmin;
+	/* font-weight: bold; */
+	text-decoration: none;
+	color: white;
+	background-color: rgb(115, 117, 115);
+	font-family: arial, sans-serif;
+}
+
+.Popup .close:hover {
+	color: #52BBEB;
+}
+
+.contenedor {
+	width: 100%;
+	display:table; 
+}
+
+.encabezado_detalle {
+	background-color: rgb(115, 117, 115);
+	font-family: arial, sans-serif;
+	color:white;
+	font-size: 2.5vmin;
+    /* line-height: 20px; */
+	border-right: solid 1px white;
+	padding:9px;
+	text-align:center;
+	box-sizing: border-box; 
+	display:block;
+	/* text-transform: uppercase; */
+}
+
+.contenido_detalle {
+	font-family: arial, sans-serif;
+	padding: 10px; 
+	display:block;
+	font-size: 1.9vmin;
+    color: rgb(51, 51, 51);
+    text-align:justify;
+}
+
+.elemento_detalle {
+	padding:0px;
+	margin:0px;
+	width:25%;
+	background-color: rgb(246, 250, 251);
+	display:table-cell;
+	background-color: rgb(246, 250, 251);
+	border-right: solid 1px rgb(232, 234, 235);
+	box-sizing: border-box;
+}
+
+ul.lista_negocios {
+	list-style-type: none;
+	margin: 1%;
+	padding:0px;
+}
+
+li.negocio {
+	padding-bottom:8px;
+}
+
+
+.masinfo {
+	transition: all 500ms;
+	-moz-transition: all 100ms;
+	-o-transition: all 100ms;
+	-ms-transition: all 100ms;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(134, 200, 45);
+	border: 1px solid rgb(134, 200, 45);
+	font-size:2.4vmin;
+	padding: 1% 1%;
+}
+
+.masinfo:hover {
+	color: rgb(68, 167, 24);
+	background:transparent;
+	border: 1px solid rgb(134, 200, 45);
+	font-size:2.4vmin;
+}
+
+.x{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.x:target {
+	visibility: visible;
+	opacity: 1;
+
+}
+
+.tablaPerfil {
+	display: table;
+	width: 100%;
+}
+
+.filaPerfil {
+	display: table-row;
+}
+
+.celdaPerfil {
+	display: table-cell;
+	width: 25%;
+	padding: 5px;
+	margin: 5px;
+	border-right: solid 5px white;
+	box-sizing: border-box;
+}
+
+#Trad {
+	background-color: rgb(18, 80, 159);
+}
+
+#Cons {
+	background-color: rgb(25, 109, 181);
+}
+
+#Mode {
+	background-color: rgb(34, 155, 215);
+}
+
+#Agre {
+	background-color: rgb(84, 188, 236);
+}
+
+.tituloPerfil {
+	/* float:left; */
+	padding: 5px;
+	color:white;
+	font-size:2.9vmin;
+	width: 80%;
+	vertical-align: middle;
+	display: table-cell;
+	box-sizing: border-box;
+}
+
+.imgPerfil {
+	/* float:right; */
+	display:table-cell;
+	box-sizing: border-box;
+	width:20%;
+}
+
+.textoPerfil {
+	clear: both;
+	border-top:1px white solid;
+	padding: 5px;
+	color:white;
+	font-size:2.3vmin;
+}
+
+.textoPerfil p {
+	color:white;
+	font-size:2.3vmin;
+	margin-bottom:0px;
+}
+
+li {
+	color:rgb(102, 102, 102);
+	font-size:2.4vmin;
+	text-align:left;
+}
+
+.tablaValida {
+	display: table;
+	width: 100%;
+}
+
+.filaValida {
+	display: table-row;
+}
+
+.celdaValida {
+	display: table-cell;
+	width: 40%;
+	padding: 5px;
+	margin: 5px;
+	border-right: solid 15px white;
+	border-left: solid 15px white;
+	box-sizing: border-box;
+	background-color: rgb(231, 231, 231);
+}
+
+.tituloCajaValida {
+	padding: 5px;
+	color:rgb(51, 51, 51);
+	font-size:2.8vmin;
+	display: table-cell;
+	box-sizing: border-box;
+}
+
+.textoCajaValida {
+	clear: both;
+	border-top:1px rgb(51, 51, 51) solid;
+	padding: 5px;
+	color:rgb(51, 51, 51);
+	font-size:2.2vmin;
+}
+
+.textoCajaValida li {
+	padding: 5px;
+	color:rgb(51, 51, 51);
+	font-size:2vmin;
+}
+
+.celdaTitulo {
+	background-color: rgb(115, 117, 115);
+	color:white;
+	padding: 5px;
+	vertical-align: middle;
+	display: table-cell;
+	width:50%;
+	box-sizing: border-box;
+	font-size:2.2vmin;
+	border-right:10px rgb(231, 231, 231) solid;
+	border-left: 10px rgb(231, 231, 231) solid;
+}
+
+.celdaTexto {
+	display: table-cell;
+	padding: 5px;
+	color:rgb(51, 51, 51);
+	font-size:2.2vmin;
+	padding: 5px;
+	border-right:10px rgb(231, 231, 231) solid;
+	border-left: 10px rgb(231, 231, 231) solid;
+}
+.texto {
+	float:left;
+	width:90%;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.tablaConductas {
+	display: table;
+	width: 100%;
+	border-spacing:20px;
+}
+
+.filaConductas {
+	display: table-row;
+}
+
+.celdaConductas {
+	display: table-cell;
+	width: 25%;
+	box-sizing: border-box;
+	background-color: rgb(84, 188, 236);
+	border-radius:10px;
+}
+
+.tituloConductas {
+	/* float:left; */
+	/*padding: 8px;*/
+	color:white;
+	font-size:2.4vmin;
+	/*vertical-align: middle;*/
+	display: table-cell;
+	box-sizing: border-box;
+}
+
+.textoConductas {
+	border-top:1px white solid;
+	padding: 0px 5px 5px 5px;
+	color:white;
+	font-size:2vmin;
+}
+
+.textoConductas p {
+	color:white;
+	font-size:2vmin;
+	margin-bottom:0px;
+}
