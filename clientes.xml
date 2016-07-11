@@ -1,1 +1,60 @@
-aa
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+	<ModulePrefs title="index_incidentes_diego.xml" /> 
+	<Content type="html">
+		<![CDATA[
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+			<html xmlns="http://www.w3.org/1999/xhtml">
+
+				<head>
+					<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+					<link rel="stylesheet" href="estilo.css">
+				</head>
+
+				<body>
+
+					<section>
+						<h1 class="encabezado1">
+							¿Qué es PDV?
+							<br/>
+							<span style="font-size:2.4vmin; font-weight:normal; text-align:center;">Circular Prácticas de Venta</span>
+						</h1>
+						<div class="fuerza">
+							<p>Las Prácticas de Venta son un conjunto de disposiciones que buscan regular las actividades y la manera en que las Entidades 
+							realizan la venta de <b>productos de inversión</b>.</p>
+							<p>Promueve las <b>mejores prácticas</b> protegiendo a los inversionistas mediante la oferta de 
+							productos adecuados al tipo y perfil de cada cliente, de acuerdo a su conocimiento, capacidad y objetivos. </p>
+							<p>Previene <b>conflictos de interés</b> en varios ámbitos y busca que el inversionista esté informado en todo momento sobre sus inversiones, 
+							desde la contratación hasta el seguimiento post venta, incluyendo la publicidad.
+							</p>
+						</div>
+						<br/>
+						<div class="tabla">
+							<div class="fila">
+								<div class="celda">
+									<p style="margin-bottom:-10px;"><b>Las Disposiciones sobre servicios de inversión...</b></p>
+									<p style="margin-bottom:-10px;"> </p>
+								</div>
+							</div>
+							<div class="fila">
+								<div class="celda" style="width:60%;">
+									<p>Las "Disposiciones de carácter general aplicables a las Entidades Financieras y demás personas que proporcionen servicios 
+									de inversión" (Circular Prácticas de Venta) constituyen el marco regulatorio emitido por la CNBV para los servicios de inversión.</p>
+									<p>Entró en vigor el 30 de septiembre de 2014 con el objetivo de que el público inversionista cuente con mayor información y 
+									protección a través de la adecuada difusión de la oferta de servicios y productos financieros, sus costos relacionados, 
+									prevención de conflictos de interés y claridad de información.</p>
+								</div>
+								<div class="celda" style="width:40%; vertical-align:middle;"><a href="http://www.cnbv.gob.mx/" target="_blank"><img style="height:50%; width:70%;" src="https://sites.google.com/a/bbva.com/pdv/CNBV.png" alt="Logo CNBV"/></a></div>
+							</div>	
+						</div>
+						
+						<img style="height:20%; width:80%;" alt="Mapa PDV" src="https://sites.google.com/a/bbva.com/pdv/MapaPDVv2.png"/>
+
+					</section>
+
+				</body>
+
+			</html>
+		]]>
+	</Content> 
+</Module>
