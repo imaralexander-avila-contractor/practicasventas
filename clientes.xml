@@ -9,7 +9,6 @@
 				<head>
 					<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 					<link rel="stylesheet" href="estilo.css">
-					<link href="https://rawgit.com/imaralexander-avila-contractor/practicasventas/master/estilo.css" rel="stylesheet">
 				</head>
 
 				<body>
@@ -52,7 +51,695 @@
 						<img style="height:20%; width:80%;" alt="Mapa PDV" src="https://sites.google.com/a/bbva.com/pdv/MapaPDVv2.png"/>
 
 					</section>
+					<!--SECCION 2 -->
+					</br>
+					<section>
+						<h1 class="encabezado2">Clasificación de clientes</h1>
 
+						<div class="fuerza">
+							<p>Las Entidades financieras deben clasificar a sus clientes antes de contratar cualquier servicio de inversión.</p>
+							<p>Las Disposiciones establecen 3 tipos de clientes:</p>
+						</div>
+						
+						<div class="fila">
+							<div class="celda" style="width:60%;">
+								<div class="cuadro_descrip">
+									<b style="font-size:2.8vmin;">Cliente No Sofisticado</b>
+									<p>Es la <b>clasificación por default</b> al inicio de la relación comercial con un cliente. Todos los clientes "nacen"  
+									como no sofisticados.</p>
+									<p>La gran mayoría de clientes se ubican en este rubro, ya que no cumplen con los requisitos necesarios para ser 
+									considerados como Sofisticados o Institucionales.</p>
+								</div>
+							</div>
+							<div class="celda" style="width:30%; vertical-align:middle;">
+								<div class="imagen"><img style="height:45%; width:45%;" alt="Bancos, empresas listadas" src="https://sites.google.com/a/bbva.com/pdv/NoSofisticado.png"/></div>
+							</div>
+							<div class="celda" style="width:10%; vertical-align:middle;"></div>
+						</div>
+						</br>
+						<div class="fila">
+							<div class="celda" style="width:20%; vertical-align:middle;">
+								<div class="imagen"><img style="height:100%; width:100%;" alt="Bancos, empresas listadas" src="https://sites.google.com/a/bbva.com/pdv/Sofisticado.png"/></div>
+							</div>
+							<div class="celda" style="width:60%;">
+								<div class="cuadro_descrip">
+									<b style="font-size:2.8vmin;">Cliente Sofisticado</b>
+									<p>Mantiene <b>inversiones</b> por un monto igual o superior a <b>3 millones de UDIS</b> (más de 16 millones de pesos) 
+									en <b>promedio</b> durante	el último año, o tuvo ingresos anuales superiores a 1 millón de UDIS (más de 5 
+									millones de pesos) en los últimos dos años.</p>
+									<p>Para ser considerado cliente sofisticado, <b>se debe suscribir una carta</b> en donde el cliente declare que cumple con 
+									dichos requisitos.</p>
+									<p style="font-size:2.8vmin;"> </p>
+									<p style="text-align:center;"><a class="vinculos" target="_blank" href="http://google.com"> – Consulta aquí el detalle y los requisitos para Clientes Sofisticados – </a></p>
+								</div>
+							</div>
+							
+							<div class="celda" style="width:20%; vertical-align:middle;"></div>
+						</div>
+						</br>
+						<div class="fila">
+							<div class="celda" style="width:60%;">
+								<div class="cuadro_descrip">
+									<b style="font-size:2.8vmin;">Cliente Institucional</b>
+									<p>Se refiere a <b>Instituciones financieras</b> nacionales y extranjeras, inversionistas extranjeros que manifiesten tener en 
+									su país de orígen el carácter de inversionista institucional o su equivalente y <b>Emisoras listadas</b> en el Registro 
+									Nacional de Valores (RNV).</p>
+									<p>Las empresas subsidiarias de las Emisoras listadas en el RNV, los Fiduciarios y las dependencias y entidades de la 
+									Administración Pública Federal deberán <b>suscribir una carta</b> en donde soliciten ser considerados Clientes Institucionales.</p>
+									<p style="font-size:2.8vmin;"> </p>
+									<p style="text-align:center;"><a class="vinculos" target="_blank" href="http://google.com"> – Consulta aquí el detalle y los requisitos para Clientes Institucionales – </a></p>
+								</div>
+							</div>
+							<div class="celda" style="width:30%; vertical-align:top;">
+								<div class="imagen"><img style="height:80%; width:80%;" alt="Bancos, empresas listadas" src="https://sites.google.com/a/bbva.com/pdv/Institucional2.png"/></div>
+							</div>
+							<div class="celda" style="width:10%; vertical-align:middle;"></div>
+						</div>
+
+
+					</section>
+					</br>
+					<!-- SECCION 3 -->
+					<section>
+						<h1 class="encabezado3">Servicios de Inversión</h1>
+						
+						<div class="fuerza">
+							<p>Todas las actividades relacionadas con la operación de inversiones en México se deben realizar a través de un servicio de inversión.</p>
+							<p style="font-size:2.4vmin;">Los servicios de inversión se dividen en <b>No Asesorados</b> (Comercialización y Ejecución de operaciones) y en 
+							<b>Asesorados</b> (Asesoría y Gestión de inversiones).</p>
+							<p style="font-size:2.4vmin;">BBVA Bancomer ofrece los <b>4 servicios de inversión</b> disponibles. Cada uno permite ofrecer al cliente productos y servicios 
+							específicos.</p>
+						</div>
+						
+					<!-- -------------------Barra de servicios de inversión ------------------------- -->
+						<div class="wrapper">
+						<div class="container">
+						<div style="display:block; background-color:#f3f3f3">
+						<ul class="contenedor columns-4">
+							<li>
+								<a style="text-decoration: none;" href="#Come">
+								<img id="imgComerc" src="https://sites.google.com/a/bbva.com/pdv/COMERC.jpg" alt="Promoción" height="200" width="200" />
+								<h3>Comercialización</h3>
+								<p> – más información – </p>
+								</a>
+							</li>
+							<li>
+								<a style="text-decoration: none;" href="#Ejop">
+								<img id="imgEjeop" src="https://sites.google.com/a/bbva.com/pdv/EJEC.jpg" alt="Ejecución" height="200" width="200" />
+								<h3>Ejecución</h3>
+								<p> – más información – </p>
+								</a>
+							</li>
+							<li>
+								<a style="text-decoration: none;" href="#Asin">
+								<img src="https://sites.google.com/a/bbva.com/pdv/ASESORIA.jpg" alt="Asesoría" height="200" width="200"/>
+								<h3>Asesoría de inversiones</h3>
+								<p> – más información – </p>	
+								</a>
+							</li>
+							<li>
+								<a style="text-decoration: none;" href="#Gest">
+								<img src="https://sites.google.com/a/bbva.com/pdv/GESTION.jpg" alt="Gestión" height="200" width="200"/>
+								<h3>Gestión de inversiones</h3>
+								<p> – más información – </p>	
+								</a>
+							</li>
+						</ul>
+						</div>
+						</div>
+						</div>
+					<!-- -------------------Barra de servicios de inversión ------------------------- -->
+					</section>
+
+
+					<!-- ------------------- Cuadros de detalle por servicio ------------------------- -->
+					<section style="width:90%;">
+
+						<!-- ---------------------COMERCIALIZACION----------------------------------- -->
+						<div id="Come" class="x">
+							<div class="Popup">
+								<a class="close" href="#">&times;</a>
+								<div class="contenedor">
+									<div class="elemento_detalle">	
+										<span class="encabezado_detalle" style="color: #52BBEB;"><b>Comercialización</b></span>
+										<span class="contenido_detalle">
+											A través de este servicio se podrá ofrecer a los clientes:
+											<ul>
+											<li style="padding-bottom:2.4vmin;">Recomendaciones <b>generalizadas</b> sobre los servicios que BBVA Bancomer proporciona.</li>
+											<li>Operaciones de compra, venta o reporto sobre los <b>valores objeto de Comercialización</b>
+											, conocidos como <b>"básicos"</b>, pudiendo comercializar valores distintos siempre que se trate de clientes Sofisticados.</li>
+											</ul>
+											<br/>
+											<p align="center"><a class="masinfo" target="_blank" href="http://google.com"> más información </a></p> 
+										</span>
+									</div>
+									<div class="elemento_detalle">
+										<span class="encabezado_detalle">Negocios</span>
+										<span class="contenido_detalle">
+											<ul class="lista_negocios">
+											<li class="negocio">Banca Comercial</li>
+											<li class="negocio">Banca Personal</li>
+											<li class="negocio">Banca Patrimonial y Privada</li>
+											<li class="negocio">Empresas, Gobierno y C&IB</li>
+											<li class="negocio">Casa de Bolsa BBVA Bancomer</li>
+											<li>Global Markets</li>
+											</ul>
+										</span>
+										<span class="encabezado_detalle" style="font-size:2.5vmin;">Requisitos de contratación PDV</span>
+										<span class="contenido_detalle">
+											Ninguno. Se trata del servicio más básico.
+											<p>Para clientes <b>Sofisticados</b> de deberá contar con la Carta de Cliente Sofisticado.</p>
+										</span>
+									</div>
+									<div class="elemento_detalle">	
+										<span class="encabezado_detalle">Productos de inversión</span>
+										<span class="contenido_detalle">
+											Clientes <b>No Sofisticados</b>
+											<p style="margin:1%;">Solo se les puede ofrecer y operar productos "básicos":</p>
+											<ul>
+											<li>PRLV y CEDES con plazo menor a un año</li>
+											<li>Fondos de inversión de deuda corto y mediano plazo</li>
+											<li>Notas estructuradas con protección de capital al 100% y vencimiento menor a un año</li>
+											</ul>
+											<br/>
+											<p align="center"><a class="masinfo" target="_blank" href="http://google.com"> más info de productos </a></p> 
+										</span>
+									</div>
+									<div class="elemento_detalle">	
+										<span class="encabezado_detalle">Validaciones</span>
+										<span class="contenido_detalle">
+											<p><b>Clientes No Sofisticados</b></p>
+											El sistema validará que solo se operen con productos básicos. En caso contrario detendrá la operación.
+											<hr/>
+											<p><b>Clientes Sofisticados</b></p>
+											<p>El sistema permite operar con cualquier producto.</p>
+											<br/>
+											<p align="center"><a class="masinfo" target="_blank" href="http://google.com"> detalle de validaciones </a></p> 
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ---------------------COMERCIALIZACION----------------------------------- -->
+						
+						
+						<!-- ---------------------EJECUCION DE OPERACIONES----------------------------------- -->
+						<div id="Ejop" class="x">
+							<div class="Popup">
+								<a class="close" href="#">&times;</a>
+								<div class="contenedor">
+									<div class="elemento_detalle">	
+										<span class="encabezado_detalle">EJECUCION</span>
+										<span class="contenido_detalle">
+											A través de este servicio se podrá ofrecer a los clientes:
+											<ul>
+											<li style="padding-bottom:2.4vmin;">Recomendaciones <b>generalizadas</b> sobre los servicios que BBVA Bancomer proporciona.</li>
+											<li>Operaciones de compra, venta o reporto sobre los <b>valores objeto de Comercialización</b>
+											, conocidos como <b>"básicos"</b>, pudiendo comercializar valores distintos siempre que se trate de clientes Sofisticados.</li>
+											</ul>
+											<br/>
+											<p align="center"><a class="masinfo" target="_blank" href="http://google.com"> más información </a></p> 
+										</span>
+									</div>
+									<div class="elemento_detalle">
+										<span class="encabezado_detalle">Negocios</span>
+										<span class="contenido_detalle">
+											<ul class="lista_negocios">
+											<li class="negocio">Banca Comercial</li>
+											<li class="negocio">Banca Personal</li>
+											<li class="negocio">Banca Patrimonial y Privada</li>
+											<li class="negocio">Empresas, Gobierno y C&IB</li>
+											<li class="negocio">Casa de Bolsa BBVA Bancomer</li>
+											<li>Global Markets</li>
+											</ul>
+										</span>
+										<span class="encabezado_detalle" style="font-size:2.5vmin;">Requisitos de contratación PDV</span>
+										<span class="contenido_detalle">
+																Ninguno. Se trata del servicio más básico.
+											<p>Para clientes <b>Sofisticados</b> de deberá contar con la Carta de Cliente Sofisticado.</p>
+										</span>
+									</div>
+									<div class="elemento_detalle">	
+										<span class="encabezado_detalle">Productos de inversión</span>
+										<span class="contenido_detalle">
+											Clientes <b>No Sofisticados</b>
+											<p style="margin:1%;">Solo se les puede ofrecer y operar productos "básicos":</p>
+											<ul>
+											<li>PRLV y CEDES con plazo menor a un año</li>
+											<li>Fondos de inversión de deuda corto y mediano plazo</li>
+											<li>Notas estructuradas con protección de capital al 100% y vencimiento menor a un año</li>
+											</ul>
+											<br/>
+											<p align="center"><a class="masinfo" target="_blank" href="http://google.com"> más info de productos </a></p> 
+										</span>
+									</div>
+									<div class="elemento_detalle">	
+										<span class="encabezado_detalle">Validaciones</span>
+										<span class="contenido_detalle">
+											<p><b>Clientes No Sofisticados</b></p>
+											El sistema validará que solo se operen con productos básicos. En caso contrario detendrá la operación.
+											<hr/>
+											<p><b>Clientes Sofisticados</b></p>
+											<p>El sistema permite operar con cualquier producto.</p>
+											<br/>
+											<p align="center"><a class="masinfo" target="_blank" href="http://google.com"> detalle de validaciones </a></p> 
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ---------------------EJECUCION DE OPERACIONES----------------------------------- -->
+					</section>
+					</br>
+					<!-- SECCION 4 -->
+					<section>
+						<h1 class="encabezado4">Perfiles de inversión</h1>
+						<div class="fuerza">
+							<p>Antes de contratar y operar los servicios <b>asesorados</b> se debe determinar un perfil de inversión 
+							 con base en los conocimientos, experiencia, objetivos de inversión y tolerancia al riesgo 
+							 del cliente.</p>
+							 <p>BBVA Bancomer ha determinado 4 perfiles para sus servicios asesorados. 
+							 Dependiendo del tipo de perfil se le pueden recomendar al cliente determinados instrumentos.</p>
+						</div>
+						<br/>
+						<p>En BBVA Bancomer los perfiles de inversión se asignan <b>por contrato de inversión</b> y no 
+						por cliente.</p>
+						<p>Por ejemplo, un cliente puede tener 3 contratos con servicio de Asesoría de inversiones, 
+						cada uno con un perfil de inversión distinto de acuerdo a los objetivos de cada contrato.</p>
+						
+						<div class="tablaPerfil">
+							<div class="filaPerfil">
+								<div id="Trad" class="celdaPerfil">
+									<div class="tituloPerfil">Tradicional</div>
+									<div class="imgPerfil"><img src="https://sites.google.com/a/bbva.com/pdv/Trad2.png" alt="Tradicional"/></div>
+									<div class="textoPerfil">
+										<p>Aplica a clientes con poco conocimiento en materia financiera y/o con mínima tolerancia 
+										al riesgo en sus inversiones. Su objetivo principal es la protección de su capital. </p>
+										<p>Busca tener disponibilidad de su inversión en el corto plazo.</p>
+									</div>
+								</div>
+								<div id="Cons" class="celdaPerfil">
+									<div class="tituloPerfil">Conservador</div>
+									<div class="imgPerfil"><img src="https://sites.google.com/a/bbva.com/pdv/Cons2.png" alt="Conservador"/></div>
+									<div class="textoPerfil">
+										<p>Su objetivo principal es la estabilidad de su patrimonio pero también admite exposición 
+										al riesgo.</p> 
+										<p>Trata de invertir principalmente en valores de deuda que obliguen al emisor a 
+										liquidar, a su vencimiento, una cantidad por lo menos igual al principal invertido. Complementa 
+										su portafolio con valores de deuda de largo plazo y en menor medida valores de renta variable. </p>
+									</div>
+								</div>
+								<div id="Mode" class="celdaPerfil">
+									<div class="tituloPerfil">Moderado</div>
+									<div class="imgPerfil"><img src="https://sites.google.com/a/bbva.com/pdv/Mode2.png" alt="Moderado"/></div>
+									<div class="textoPerfil">
+										<p>Su objetivo principal es el equilibrio entre la estabilidad de sus recursos y el crecimiento 
+										de su patrimonio.</p>
+										<p>Suele destinar aldededor del 50% de su patrimonio a instrumentos de renta variable como acciones, 
+										warrants, fondos de inversión en renta variable, ETFs, etc., el resto del portafolio se compone de 
+										valores de deuda de corto y largo plazo.</p>
+									</div>
+								</div>
+								<div id="Agre" class="celdaPerfil">
+									<div class="tituloPerfil">Agresivo</div>
+									<div class="imgPerfil"><img src="https://sites.google.com/a/bbva.com/pdv/Agre2.png" alt="Agresivo"/></div>
+									<div class="textoPerfil">
+										<p>Son clientes con avanzados conocimientos financieros y experiencia. Constantemente están atentos 
+										a los movimientos del mercado y son afectos al riesgo.</p>
+										<p>Tiene como principal objetivo el crecimiento del protafolio, por lo que puede invertir el 100% 
+										de sus recursos en instrumentos de renta variable que podrían representar una pérdida de capital.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p style="text-align:center;">Para conocer qué instrumentos se pueden recomendar y operar por cada perfil de 
+						inversión <b><a class="vinculos" target="_blank" href="http://www.google.com">-da clic aquí -</a></b></p>
+					</section>
+					<!-- SECCION 5 -->
+					<section>
+						<h1 class="encabezado5">Validaciones por servicio de inversión</h1>
+						<div class="fuerza">
+							<p>Los sistemas de operación de BBVA Bancomer realizan validaciones automáticas que ayudan a cumplir con las Disposiciones sobre servicios de inversión.</p>
+						</div>
+						<p>Cada servicio de inversión tiene requisitos y restricciones particulares para la operación. El sistema valida una a una las reglas de operación de acuerdo 
+						al servicio del contrato y en caso de que no se cumpla alguna de ellas la operación no se efectuará.</p>
+						<div class="fila">
+							<div class="celda" style="width:60%;">
+								<p style="color:rgb(51, 51, 51); font-size:2.8vmin;">¿Qué se valida al realizar operaciones?</p>
+							<p style="margin-bottom:-10px; color:rgb(0, 158, 229); font-size:2.8vmin;">Certificación del personal</p>
+							<p style="margin-bottom:-5px;">Al realizar cualquier <b>compra</b> o <b>venta</b> de instrumentos de inversión en cualquier servicio lo primero que se 
+							valida es que el <b>personal</b> que captura la operación esté <b>certificado.</b> Es decir, que cuenta con la figura correspondiente de la Asociación Mexicana 
+							de Intermediarios Bursátiles (AMIB), que tiene los poderes para celebrar operaciones con el público inversionista y que está registrado como tal ante 
+							el área de Formación del Banco.</p>
+							<p style="margin-bottom:-10px; color:rgb(0, 158, 229); font-size:2.8vmin;">Reglas de operación</p>
+							<p style="margin-bottom:-5px;">Posteriormente, si se trata de <b>operaciones de compra</b>, se validarán las reglas de operación de cada servicio de inversión:</p>
+							</div>
+							<div class="celda" style="width:40%; vertical-align:middle;align:right;">
+								<div class="imagen"><img src="https://sites.google.com/a/bbva.com/pdv/Validaciones.png" alt="Revisión con lupa"/></div>
+							</div>
+						</div>
+						
+						
+
+						<div style="clear:both;"></div><br/>
+						
+						<div class="fuerza"><p>Servicios No Asesorados</p></div>
+						
+						<div class="tablaValida">
+							<div class="filaValida">
+								<!-- ------------------------------------------COMERCIALIZACION ------------------------------------- -->
+								<div class="celdaValida">
+									<div class="tituloCajaValida">
+										Comercialización
+										<br/>
+										<span style="font-size:2.2vmin;">Productos básicos</span>
+									</div>
+									<div class="textoCajaValida">
+										<p style="margin-bottom:-10px;"> </p>
+										<b>1 - Certificación de personal</b><br/>
+										<span style="font-size:2vmin;">
+											Al comprar o vender instrumentos, incluídos captación (PRLV) y Fondos de Inversión.
+										</span><br/><br/>
+										<b>2- Tipo de Cliente</b>
+										<br/><p> </p>
+										<div class="tablaValida">
+											<div class="filaValida">
+												<div class="celdaTitulo" style="text-align:center;">No Sofisticado</div>
+												<div class="celdaTitulo" style="text-align:center;">Sofisticado</div>
+											</div>
+											<div class="filaValida">
+												<div class="celdaTexto">
+													<b>Únicamente</b> puede adquirir valores objeto de comercialización, es decir: <span style="font-size:2.2vmin;"><b>productos básicos</b></span>
+													<br/>
+													<p style="text-align:center; margin-top:20px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;"> más información </a></p>
+												</div>
+												<div class="celdaTexto">
+													Puede adquirir <span style="font-size:2.2vmin;"><b>cualquier valor</b>.</span><br/><br/>
+													Para ser considerado Cliente Sofisticado se debe cubrir con los requisitos y firmar la carta de solicitud.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<!-- -----------------------------------------------EJECUCION --------------------------------------- -->
+								<div class="celdaValida">
+									<div class="tituloCajaValida">
+										Ejecución de operaciones
+										<br/>
+										<span style="font-size:2.2vmin;">Instrucciones del cliente</span>
+									</div>
+									<div class="textoCajaValida">
+										<p style="margin-bottom:-10px;"> </p>
+										<b>1 - Certificación de personal</b><br/>
+										<span style="font-size:2vmin;">
+											Al comprar o vender instrumentos, incluídos captación (PRLV) y Fondos de Inversión.
+										</span><br/><br/>
+
+									<br/><br/>
+										<p style="color:rgb(51, 51, 51); text-align:center;">No realizan validaciones operativas.</p>
+										<p style="color:rgb(51, 51, 51); text-align:center;">Puede adquirir cualquier instrumento.</p>
+									</div>
+								</div>			
+							</div>
+						</div>
+						
+						<div class="fuerza"><p>Servicios Asesorados</p></div>
+						
+						<div class="tablaValida">
+							<div class="filaValida">
+								<!-- -----------------------------------------------ASESORIA --------------------------------------- -->
+								<div class="celdaValida">
+									<div class="tituloCajaValida">
+										Asesoría de inversiones
+										<br/>
+										<span style="font-size:2.2vmin;">Razonabilidad de la recomendación</span>
+									</div>
+									<div class="textoCajaValida">
+										<p style="margin-bottom:-10px;"> </p>
+										<b>1 - Certificación de personal</b><br/>
+										<span style="font-size:10pt;">Al comprar o vender instrumentos, incluídos captación (PRLV) y Fondos de Inversión.</span>
+										<br/><br/>
+										<p style="margin-bottom:-10px;"> </p>
+										<b>2 - Perfil (matriz de razonabilidad)</b><br/>
+										<span style="font-size:10pt;">Congruencia entre el perfil de inversión del contrato y el perfil del instrumento.</span>
+										<br/>
+										<p style="margin-bottom:15px;"> </p>
+										<div style="float:left"><img src="https://sites.google.com/a/bbva.com/pdv/Matriz2.png" alt="Matriz de razonabilidad"/></div>
+										<div style="float:left">
+											<p style="text-align:center; margin: 20px 0px 0px 30px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;"> más información </a></p>
+										</div>
+										<div style="clear:both;"></div>
+										<br/>
+										<p style="margin-bottom:-10px;"> </p>
+										<b>3 - Límites de inversión</b><br/>
+										<span style="font-size:10pt;">Niveles máximos de inversión por tipo de activo y por perfil de inversión.</span>
+										<br/>
+										<p style="margin-bottom:15px;"> </p>
+										<div style="float:left"><img src="https://sites.google.com/a/bbva.com/pdv/Limites2.png" alt="Límites por asset class"/></div>
+										<div style="float:left">
+											<p style="text-align:center; margin: 20px 0px 0px 30px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;"> más información </a></p>
+										</div>
+										<div style="clear:both;"></div>
+										<br/>
+										<p style="margin-bottom:-10px;"> </p>
+										<b>4 - Concentración de la cartera</b><br/>
+										<span style="font-size:10pt;">Reglas para evitar la concentración de la cartera.</span>
+										<br/>
+										<p style="margin-bottom:15px;"> </p>
+										<div style="float:left"><img src="https://sites.google.com/a/bbva.com/pdv/Concentracion2.png" alt="Concentración"/></div>
+										<div style="float:left">
+											<p style="text-align:center; margin: 20px 0px 0px 30px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;"> más información </a></p>
+										</div>
+									</div>
+								</div>
+								
+								<!-- -----------------------------------------------GESTION --------------------------------------- -->
+								<div class="celdaValida">
+									<div class="tituloCajaValida">
+										Gestión de Inversiones
+										<br/>
+										<span style="font-size:11pt;">Marco General de Actuación</span>
+									</div>
+									<div class="textoCajaValida">
+										<p style="margin-bottom:-10px;"> </p>
+										<b>1 - Certificación de personal</b><br/>
+										<span style="font-size:10pt;">Al comprar o vender instrumentos, incluídos captación (PRLV) y Fondos de Inversión.</span>
+										<br/><br/>
+										<p style="margin-bottom:-10px;"> </p>
+										<b>2 - Perfil (matriz de razonabilidad)</b><br/>
+										<span style="font-size:10pt;">Congruencia entre el perfil de inversión del contrato y el perfil del instrumento.</span>
+										<br/>
+										<p style="margin-bottom:15px;"> </p>
+										<div style="float:left"><img src="https://sites.google.com/a/bbva.com/pdv/Matriz2.png" alt="Matriz de razonabilidad"/></div>
+										<div style="float:left">
+											<p style="text-align:center; margin: 20px 0px 0px 30px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;"> más información </a></p>
+										</div>
+										<div style="clear:both;"></div>
+										<br/>
+
+										<p style="margin-bottom:-10px;"> </p>
+										<b>3 - Marco General de Actuación</b><br/>
+										<span style="font-size:10pt;">
+											Recoge la política de inversión del mandato de gestión, los índices de referencia y los costos y riesgos asosciados.<br/><br/>
+											La Unidad de Asset Management de BBVA Bancomer es la encargada de brindar el servicio de Gestión de inversiones. Cuenta con áreas especializadas y 
+											comités que generan las estrategias para los diferentes portafolios gestionados.<br/><br/>
+											El Marco General de Actuación <b>contiene:</b><br/>
+											<ul>
+												<li>Aviso de riesgos asociados a los valores de la cartera.</li>
+												<li>La forma en que el cliente podrá modificar la discrecionalidad en el servicio de Gestión.</li>
+												<li>Las características de los valores que podrán formar parte de la cartera.</li>
+												<li>La estrategia de inversión que se seguirá.</li>
+												<li>La política que se seguirá para la liquidez y los límites de inversión por clase de activo.</li>
+												<li>El tipo de operaciones que se podrán realizar.</li>
+											</ul>
+											Asset Management cuenta con <b>sistemas de vigilancia</b> y seguimiento del Marco General de Actuación con la finalidad de cumplir las políticas
+											de inversión.
+										</span>
+										<br/>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<p>Adicional a las reglas de operación, los sistemas de BBVA Bancomer también validan que no se incurran en <b>conflictos de interés</b> por:</p>
+						<ul>
+							<li>No diversificar entre los clientes de BBVA Bancomer las emisiones primarias en donde funga como participante de la colocación.</li>
+							<li>Concentrar una emisión colocada por BBVA Bancomer entre clientes del Grupo.</li>
+						</ul>
+						<div class="fuerza">
+							<p style="font-size:13pt;">
+								<a class="vinculos" target="_blank" href="http://google.com">- Consulta aquí el detalle de validaciones para evitar conflictos de interés -</a>
+							</p>
+						</div>
+						
+					</section>
+					</br>
+					<!-- SECCION 6 -->
+					<section>
+						<h1 class="encabezado6">Conflictos de interés y prácticas indebidas</h1>
+						<br/>
+						<div class="sec1">
+							<div class="fuerza1"><p style="margin-bottom:-5px;">¿Qué es un conflicto de interés?</p></div>
+							
+							
+							<div class="fila">
+								<div class="celda" style="width:15%; vertical-align:middle;">
+									<div class="imagen"><img src="https://sites.google.com/a/bbva.com/pdv/alto.png" alt="Seña de alto"/></div>
+								</div>
+								<div class="celda" style="width:85%;">
+									<div class="texto">
+										<p>Un conflicto de interés surge cuando el interés personal en una transacción o una obligación para con 
+										terceros entra en conflicto con las obligaciones del empleado para con el Grupo y sus clientes.</p>
+										<p>Esto incluye varios casos que van desde que un empleado de BBVA Bancomer hace uso de su posición para conseguir 
+										algún beneficio personal utilizando información confidencial, o que las políticas comerciales de las áreas 
+										de Negocio vayan en detrimento de los clientes.</p>
+										<p>BBVA Bancomer, además de su Código de Conducta, cuenta con políticas y lineamientos para evitar conflictos 
+										de interés en la prestación de servicios de inversión aprobadas por su Consejo de Administración en donde se abordan 
+										los siguientes puntos:</p>
+										<ul>
+											<li>Prevención de conflictos de interés en colocaciones de Valores.</li>
+											<li>Límites en la colocación de valores (diversificación de las emisiones).</li>
+											<li>Separación de áreas.</li>
+										</ul>
+										<div style="float:left;">
+											<p style="margin: 20px 0px 0px 30px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;">
+												Política para evitar conflictos de interés	
+											</a></p>
+										</div>
+										<div style="float:left;">
+											<p style="margin: 20px 0px 0px 30px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;">
+												Validaciones de conflictos de interés	
+											</a></p>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							
+							
+							
+						</div>
+					</section>
+
+					<section>
+						<div class="sec2">
+							<div class="fuerza1"><p style="margin-bottom:-5px;">Prácticas de debes evitar</p></div>
+							<p>Ya sea que tengas trato directo con clientes o que diseñes campañas de publicidad o comunicación, debes cuidar de no caer en prácticas indebidas. 
+							Algunas de las más comunes son:</p>
+						</div>
+						
+						<div class="tablaConductas">
+							<div class="filaConductas">
+								<div class="celdaConductas">
+									<div class="tituloConductas">Recomendaciones no razonables (fuera de perfil)</div>
+									<div class="textoConductas">
+										<p>- Recomendar compra de valores que no corresponden al perfil del contrato.</p>
+										<p>- Realizar operaciones que excedan los límites de inversión para el tipo de perfil.</p>
+										<p>- No vigilar la composición de las carteras asesoradas.</p>
+										<p>- Mal perfilado de clientes.</p>
+									</div> 
+								</div>
+								<div class="celdaConductas">
+									<div class="tituloConductas">Manipular perfiles de inversión</div>
+									<div class="textoConductas">
+										<p>- Sugerir o inducir un perfil al cliente.</p>
+										<p>- Inducir las respuestas del cuestionario.</p>
+										<p>- Responder el cuestionario en nombre del cliente.</p>
+										<p>- Dar a elegir un perfil al cliente.</p>
+										<p>- Perfilar o modificar perfil sin autorización del cliente.</p>
+									</div>
+								</div>
+								<div class="celdaConductas">
+									<div class="tituloConductas">Proporcionar asesoría sin contratar el servicio</div>
+									<div class="textoConductas">
+										<p>- Proporcionar, de manera oral o escrita, recomendaciones o consejos personalizados a un cliente para la toma de decisiones 
+										de inversión sobre <b>prodcutos no básicos</b> sin haber contratado el servicio de Asesoría.</p>
+										<p>- Juicios, opiniones o frases ya sea de manera oral o en publicidad, campañas o correos electrónicos a clientes como: "tu mejor opción", 
+										"la opción ideal para tí" sobre un producto en específico cuando éste sea <b>no básico</b>.</p>
+									</div>
+								</div>
+								<div class="celdaConductas">
+									<div class="tituloConductas">Garantizar rendimientos a capital</div>
+									<div class="textoConductas">
+										<p>- Prometer rendimientos por cualquier medio sobre la cartera de inversión o sobre algún instrumento financiero.</p>
+										<p>- Generar estrategias que beneficien a algunos clientes, o que eviten pérdidas en determinados instrumentos en detrimento de otros clientes.</p>
+									</div>
+								</div>
+							</div>
+							<div class="filaConductas">
+								<div class="celdaConductas">
+									<div class="tituloConductas">Conductas de negocio inadecuadas</div>
+									<div class="textoConductas">
+										<p>- Operar un servicio de inversión sin tener <b>toda</b> la documentación requerida y firmada por el cliente.</p>
+										<p>- Operar sin instrucciones del cliente en cuentas no discrecionales.</p>
+										<p>- Recibir instrucciones del cliente por canales no oficiales (mensajes de texto, correos no institucionales, ...).</p>
+									</div>
+								</div>
+								<div class="celdaConductas">
+									<div class="tituloConductas">Información no adecuada para la toma de decisiones</div>
+									<div class="textoConductas">
+										<p>- No entregar la información de los productos, o señalar la página de internet donde se puede encontrar (prospecto, características, riesgos).</p>
+										<p>- Falta de transparencia / claridad en las características del producto.</p>
+										<p>- Información que induzca al error, ya sea de forma verbal o en publicidad, campañas o correos electrónicos.</p>
+									</div>
+								</div>
+								<div class="celdaConductas">
+									<div class="tituloConductas">Posibles conflictos de intereses</div>
+									<div class="textoConductas">
+										<p>- Alta concentración en valores propios. Falta de procedimientos para reconducir las carteras concentradas.</p>
+										<p>- Inadecuado esquema de incentivos para la venta de instrumentos de alto riesgo y distribución de colocaciones primarias.</p>
+										<p>- Funcionamiento inadecuado de Muralla China (barreras de comunicación entre áreas de negocio, estructuración, análisis, etc.</p>
+									</div>
+								</div>
+								<div class="celdaConductas">
+									<div class="tituloConductas">Falta de documentación</div>
+									<div class="textoConductas">
+										<p>- No contar con la evidencia documental o las instrucciones de operación de clientes.</p>
+										<p>- No contar con expedientes completos.</p>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</section>
+					<br/><br/>
+
+					<section>
+						<div class="sec1">
+							<div class="fuerza1"><p style="margin-bottom:-5px;">Sanciones</p></div>
+							<p style="margin-left:10px; margin-right:10px;">La Comisión Nacional Bancaria y de Valores (CNBV) aplicará sanciones por prácticas indebidas y multas a Entidades Financieras 
+							y Asesores en inversiones. De forma adicional, dependiendo de la gravedad de la infracción, un Comité de Disciplina de BBVA Bancomer 
+							podrá determinar sanciones administrativas y/o económicas al personal que incurra en faltas.</p>
+							
+							<div class="fila">
+								<div class="celda" style="width:30%; vertical-align:middle;">
+									<div class="imagen"><img src="https://sites.google.com/a/bbva.com/pdv/legal.png" alt="Sancion"/></div>
+								</div>
+								<div class="celda" style="width:70%;">
+									<p>El artíuclo 41 de la Circular de Prácticas de Ventas establece las posibles sanciones:</p>
+									<ul>
+										<li>Suspender o limitar de manera parcial las actividades de las Entidades cuando no cuenten con la infraestructura o controles 
+										internos necesarios para prestar sus servicios de acuerdo a las disposiciones aplicables (Art. 138 LMV).</li>
+										<li>Suspender o limitar de manera parcial las actividades de las Entidades cuando realicen operaciones con 
+										conflicto de interés en perjuicio de sus clientes (Art. 138 LMV).</li>
+										<li>Responsabilizar a los Bancos sobre los daños y perjuicios ocacionados al cliente cuando contraten operaciones y servicios 
+										que no son acordes a su perfil de inversión (Art. 81 Bis LIC).</li>
+										<li><b>Multa de 30,000 a 150,000 días de salario </b>a las Entidades o asesores en inversiones que emitan recomendaciones o efectúen 
+										operaciones no razonables (Art. 392 LMV).</li>
+										<li>Suspender a los ejecutivos que realicen prácticas contrarias a las Disposiciones.</li>
+									</ul>
+									<div style="float:left;">
+										<p style="margin: 20px 0px 0px 30px;"><a class="masinfo" target="_blank" href="http://google.com" style="padding: 8px 8px;">
+											Sanciones aplicadas por la CNBV	
+										</a></p>
+									</div>
+								</div>
+								
+								<div class="celda" style="width:20%; vertical-align:middle;"></div>
+							</div>
+
+						</div>
+					</section>
 				</body>
 
 			</html>
